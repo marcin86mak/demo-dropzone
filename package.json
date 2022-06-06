@@ -1,0 +1,19 @@
+{
+  "name": "demo-dropzone",
+  "version": "1.0.0",
+  "description": "Demo dropzone",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "author": "marcin86mak@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.5.0",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "dropzone": "^6.0.0-beta.2"
+  }
+}
